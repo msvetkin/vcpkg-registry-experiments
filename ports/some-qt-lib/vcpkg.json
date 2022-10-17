@@ -1,6 +1,17 @@
 {
-	"name": "some-qt-lib",
-	"version": "0.0.1",
-	"description": "A simple qt lib",
-	"homepage": "https://github.com/msvetkin/some-qt-lib"
+  "name": "some-qt-lib",
+  "version": "0.0.2",
+  "description": "A simple qt lib",
+  "homepage": "https://github.com/msvetkin/some-qt-lib",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    },
+    "qtbase"
+  ]
 }

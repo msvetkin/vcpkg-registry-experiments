@@ -1,5 +1,5 @@
 {
   "default": {
-    "some-qt-lib": { "baseline": "0.0.1", "port-version": 0 }
+    "some-qt-lib": { "baseline": "0.0.2", "port-version": 0 }
   }
 }
